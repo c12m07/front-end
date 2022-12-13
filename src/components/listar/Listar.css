@@ -1,0 +1,103 @@
+.PrincipalContainer{
+  width: 100vw;
+  height: auto;
+  background-color: #0D0D0D;
+  padding: 20px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PrincipalContainer h2{
+  height: 90px;
+  width: auto;
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: #F2E7DC;
+  font-family: 'Anton', sans-serif;
+  transition: all 500ms;
+  margin-bottom: 25px;
+}
+
+.PrincipalContainer h2:hover{
+  text-shadow: -250px 0px 0px #038C7F, 250px 0px 0px #A9D9D0;
+}
+
+.PrincipalContainer h5{
+  display: block;
+  width: 100%;
+  border-top: 1px solid #F2E7DC;
+  padding-top: 25px;
+  text-align: center;
+  margin: 10px 0px 30px;
+  color: #F2E7DC;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.Section{
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.EditSection{
+  height: 600px;
+}
+
+.EditSection form{
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.EditSection form input{
+  margin-bottom: 20px !important;
+  padding: 15px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+  background-color: #F2E7DC;
+  color: #0D0D0D;
+  transition: all 100ms;
+  border: 2px solid #027373;
+}
+.EditSection form label{
+  color: #027373;
+  letter-spacing: 5px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.EditSection form label:focus{
+  font-weight: 700;
+  color: #027373;
+}
+
+.EditSection form input:focus, .EditSection form input:hover{
+  box-shadow: 0px 0px 10px #038C7F;
+}
+
+.EditSection button{
+  display: block;
+  margin-top: 10px;
+  width: 120px;
+  transition: all 300ms;
+}
+
+.EditSection button:hover{
+  padding-left: 50px;
+  width: 150px;
+  border: 1px solid #F2E7DC;
+  color: #F2E7DC;
+}
+
+.CardsSection{
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  border-left: 1px solid #F2E7DC;
+  padding-left: 30px;
+}

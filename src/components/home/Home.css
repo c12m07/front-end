@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.Title{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D0D0D;
+}
+
+.Title h1{
+  font-size: 100px;
+  letter-spacing: 5px;
+  color: #F2E7DC;
+  font-family: 'Anton', sans-serif;
+  transition: all 300ms;
+}
+
+.Title h1:hover{
+  font-size: 80px;
+  cursor: pointer;
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 5px #F2E7DC, 0px 100px 0px #027373, 0px -100px 0px #A9D9D0, 380px 0px 0px #038C7F, -380px 0px 0px #038C7F;
+}
